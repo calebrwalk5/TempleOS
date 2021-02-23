@@ -1,0 +1,11 @@
+// RIP Terry Davis
+
+U0 Move (U8 n, U8 from, U8 to, U8 via) {
+  if (n > 0) {
+    Move(n - 1, from, via, to);
+    Print("Move disk from pole %d to pole %d\n", from, to);
+    Move(n - 1, via, to, from);
+  }
+}
+
+Move(4, 1, 2, 3);

@@ -20,3 +20,10 @@ it's too difficult for TempleOS to figure-out port numbers, automatically.)
 The source code can also be found at the TempleOS web site, 
 http://www.templeos.org but cannot be compiled outside TempleOS because
 it's HolyC, a nonstandard C/C++ dialect, and asm.
+
+MODS:
+Referances to Terry Davis, periodically
+MANIA.HC
+drums.HC
+paranoid.HC
+DivineIntellect.HC

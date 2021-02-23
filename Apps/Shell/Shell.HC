@@ -1,6 +1,6 @@
 #define CMDS_LEN 9
-U8 *cmds[CMDS_LEN] = {"cp", "mv", "mkdir", "rm", "edit", "cd", "ls", "exit", "help"};
-U8 *cmds_help[CMDS_LEN] = {"Copy a file", "Move a file", "Make a direcotry", "Remove a file", "Edit a file", "Change Directory", "List files in directory", "Exit shell", "Display help"};
+U8 *cmds[CMDS_LEN] = {"cp", "mv", "mkdir", "rm", "edit", "cd", "ls", "exit", "help", "echo"};
+U8 *cmds_help[CMDS_LEN] = {"Copy a file", "Move a file", "Make a direcotry", "Remove a file", "Edit a file", "Change Directory", "List files in directory", "Exit shell", "Display help", "Say something"};
 
 #define MAX_ARG_LEN 50
 
@@ -205,6 +205,9 @@ I8 HandleCmd(U8 *input)
       "ERROR: 1 argument expected!\n";
       return 1;
     }
+    else if (StrNCmp(input,"echo",6) == 0) {
+      num_args
+    }
     cur_args = GetArgs(input);
     Del(cur_args->argv[0]);
     FreeArgs(cur_args);
@@ -214,8 +217,9 @@ I8 HandleCmd(U8 *input)
 
 U0 TempleShell()
 {
-  "Welcome to TempleShell!\n";
+  "Welcome to the TempleOS shell!\n";
   "Type 'help' for a list of commands.\n\n";
+  "Terry@Heaven:~$ "
   while (1) 
   {
     // Display prompt

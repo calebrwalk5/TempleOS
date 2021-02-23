@@ -6,4 +6,5 @@ Cd(__DIR__);;
 #include "HolySpirit"
 #include "GodSong"
 #include "GodDoodle"
+#include "DivineIntellect"
 Cd("..");;

@@ -1,4 +1,6 @@
-                           TempleOS
+anusO1 mod for TempleOS
+
+                          TempleOS
 
 You can't do much until you burn a TempleOS CD/DVD from the ISO file
 and boot it, or you aim your virtual machine's CD/DVD at the ISO file

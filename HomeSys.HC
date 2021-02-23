@@ -36,3 +36,4 @@ U0 StartUpTasks()
 StartUpTasks;
 
 "\nTempleOS V%5.3f\t%D %T\n\n",sys_os_version,sys_compile_time,sys_compile_time;
+"Hello, Mr. God\n";

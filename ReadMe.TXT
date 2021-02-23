@@ -22,7 +22,8 @@ http://www.templeos.org but cannot be compiled outside TempleOS because
 it's HolyC, a nonstandard C/C++ dialect, and asm.
 
 MODS:
-Referances to Terry Davis, periodically
+References to Terry Davis, periodically
+Shell.HC
 MANIA.HC
 drums.HC
 paranoid.HC
